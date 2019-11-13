@@ -1,3 +1,15 @@
+
+# Anything else
+**/media/
+*.rdb
+.idea
+._*
+__pycache__
+.vscode
+.DS_Store
+.cache
+.ipynb_checkpoints
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
