@@ -21,6 +21,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            source venv/bin/activate
+            source env/bin/activate
             flake8 --exclude=env --statistics
             pytest --verbose --cov=calc_library calc_library/test_*.py
